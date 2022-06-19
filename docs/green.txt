@@ -1,0 +1,88 @@
+2018年4月に株式会社ファングラーテクノロジーへ入社し、現職です。
+1年間、クレジットカード決済システムにおいて、サーバ構築・運用を担当しました。
+3年間、移動体通信事業者のネットワークインフラ仮想化プロジェクトで、システムテストを担当しています。
+現在、東京都を勤務地として希望しています。
+
+業務でコードを書く仕事を探しています。
+Web開発(バックエンド/フロントエンド)に興味があります。
+
+文系卒でエンジニアになったので、計算量を意識したアルゴリズムを構築する能力を身につけるため、プログラミングを独学し始めました。
+『AOJ Courses』: 会津大学が運営するプログラミング無料コース
+https://onlinejudge.u-aizu.ac.jp/courses/list
+
+職務経歴
+【会社名】
+株式会社ファングラーテクノロジー
+【勤務期間】
+2018年4月〜在籍中
+【雇用形態】
+正社員
+【職種】
+ソフトウェア開発
+サーバ構築・運用・保守
+【最終学歴】
+明治大学商学部商学科　2018年3月卒業
+専攻: 計量経済学 - 時系列データ分析
+
+【技術要素】
+言語: Python 3.10 / Google Apps Script (V8 runtime / ES6) / SQL / Bash 4.4 / Powershell 7 / VBA
+DB: MySQL(Maria DB 10.0)
+OS: RHEL 7 / CentOS 7 / Ubuntu 20.04 / Ubuntu 14.04
+Hypervisor: QEMU + KVM / VMware ESXi 6.7
+Container: Docker
+Orchestrator: Kubernetes / OpenStack Mitaka
+
+【資格】
+応用情報技術者試験(2019年6月)
+LPIC Level 1(2019年3月)
+基本情報技術者試験(2018年11月)
+
+【業務経験】
+[プロジェクト1]
+参画時期: 2019年10月 - 現在
+プロジェクト: 移動体通信事業者のネットワークインフラ仮想化
+工程: システムテスト
+○ 試験手順書レビュー
+○ 試験手順書作成
+○ Python スクリプト作成
+  ・生ログなどの煩雑なデータを正規表現(先読み/後読み/(非)貪欲マッチ/後方参照)などで前処理(grep/perl/awk/Pandas)した後、計算を自動化(Pandas)
+  ・Excel シートを取得し、テキスト処理を自動化(OpenPyXL)
+  ・formatter/linter/type checker と型ヒントによって、型エラーや Null 参照などを実行前に検出し、品質と実装速度を向上
+　formatter: Black, linter: Flake8, type checker: Pylance
+○ Google Apps Script スクリプト作成
+  ・Google Spreadsheet と組み合わせて、日報メール下書き作成を自動化
+○ SQL による MySQL 操作
+  ・テーブルのCRUD
+  ・レコードのCRUD
+○ Bash シェルスクリプト作成
+  ・検証環境にある各ノードからのログ回収を自動化(sftp + expect)
+  ・検証環境の正常性確認スクリプトの実行結果ログから、異常を検出した項目の行のみを抽出
+○ Powershell スクリプト作成
+  ・作業用PC初期設定自動化
+○ VBA スクリプト作成
+  ・検証環境の正常性確認スクリプトの実行結果ログから、異常を検出した項目の行のみを抽出
+○ QEMU + KVM 管理
+  ・libvirt による VM 管理
+
+---
+[プロジェクト2]
+参画時期: 2018年6月 - 2019年9月
+プロジェクト: クレジットカード決済システム(決済端末 - カード会社間通信経由システム)のインフラ部門
+工程: サーバ構築・運用
+案件規模:
+  ・物理サーバ：90台
+  ・ゲストOS：300台
+  ・NW機器：260台 ※L2SW、L3SW、ルータ、FW、LB、アプライアンスの合計
+○ Linuxサーバ構築
+  ・OS: RHEL 7 / CentOS 7
+  ・サーバ: LDAP(OpenLDAP 2.4) / Maria DB 10.0 / Postfix / NTP(Chrony) / SNMP / NFS / rsyslog / Nagios / Cacti
+  ・クライアント: LDAP(nslcd+nscd / SSSD) / NTP(ntpd、Chrony) / SNMP / NFS / autofs / rsyslog
+○ IAサーバ(VMホスト)構築
+  ・BIOS / iDRAC アップデート、設定
+  ・各種 FW アップデート
+  ・RAID 構築
+  ・VMware ESXi 6.7 インストール、パッチ適用、設定
+○ VMware vSphere Client、VMware vSphere Web Client でのVM管理
+○ Linuxサーバ運用
+○ Nagios / Cactiによる監視運用
+○ データセンター業務(電源、LAN結線)
