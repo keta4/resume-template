@@ -22,7 +22,7 @@
 - 試験実施後、その試験手順書に欄外追記を求められる
 - 一部の試験手順では確認観点が明記されている
   - e.g. /etc/ssh/sshd_config AllowTcpForwarding yes/no
-  - systemctl status sshd
+  - e.g. systemctl status sshd: サービス起動時間の変化
 - その行と同じ行の欄外に、確認観点に対応するログを貼り付ける必要がある
 - ユーザ企業が納品物として、ログの貼り付けなどを求めるので、やらざるを得ない
 - 試験手順書は 1000 行ぐらいある
