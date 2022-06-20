@@ -82,7 +82,7 @@ LPIC Level 1(2019年3月)
   ・各種 FW アップデート
   ・RAID 構築
   ・VMware ESXi 6.7 インストール、パッチ適用、設定
-○ VMware vSphere Client、VMware vSphere Web Client でのVM管理
+○ VMware vSphere (Web) Client でのVM管理
 ○ Linuxサーバ運用
 ○ Nagios / Cactiによる監視運用
 ○ データセンター業務(電源、LAN結線)
