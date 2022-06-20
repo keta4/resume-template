@@ -17,12 +17,12 @@
 
 #### 使用した技術・バージョン：
 
-言語: Python 3.10 / Google Apps Script (V8 runtime / ES6) / SQL / Bash 4.4 / Powershell 7 / VBA
-DB: MySQL(Maria DB 10.0)
-OS: Ubuntu 20.04 / Ubuntu 14.04
-Hypervisor: QEMU + KVM
-Container: Docker
-Orchestrator: Kubernetes / OpenStack Mitaka
+- 言語: Python 3.10 / Google Apps Script (V8 runtime / ES6) / SQL / Bash 4.4 / Powershell 7 / VBA
+- DB: MySQL(Maria DB 10.0)
+- OS: Ubuntu 20.04 / Ubuntu 14.04
+- Hypervisor: QEMU + KVM
+- Container: Docker
+- Orchestrator: Kubernetes / OpenStack Mitaka
 
 #### 担当サービス・プロダクトが属する業界：
 
