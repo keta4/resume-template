@@ -83,10 +83,10 @@
 
 ## 規模
 
-  - 物理サーバ：90台
-  - ゲストOS：300台
-  - NW機器：260台 ※L2SW、L3SW、ルータ、FW、LB、アプライアンスの合計
-    - クレジットカード決済端末を導入されるユーザ様が多いため、ルータ台数が多い
+- 物理サーバ：90台
+- ゲストOS：300台
+- NW機器：260台 ※L2SW、L3SW、ルータ、FW、LB、アプライアンスの合計
+  - クレジットカード決済端末を導入されるユーザ様が多いため、ルータ台数が多い
 
 ## チームの編成
 
@@ -111,13 +111,13 @@
 - Linuxサーバ構築
   - OS: RHEL 7 / CentOS 7
   - サーバ: LDAP(OpenLDAP 2.4) / MySQL(Maria DB 10.0) / Postfix / NTP(Chrony) / SNMP / NFS / rsyslog / Nagios / Cacti
-  - クライアント: LDAP(nslcd+nscd / SSSD) / NTP(ntpd、Chrony) / SNMP / NFS / autofs / rsyslog
+  - クライアント: LDAP(nslcd+nscd / SSSD) / NTP(ntpd / Chrony) / SNMP / NFS / autofs / rsyslog
 - IAサーバ(VMホスト)構築
   - BIOS / iDRAC アップデート、設定
   - 各種 FW アップデート
   - RAID 構築 (ハードウェアRAID)
   - VMware ESXi 6.7 インストール、パッチ適用、設定
-- VMware vSphere Client、VMware vSphere Web Client でのVM管理
+- VMware vSphere (Web) Client でのVM管理
 - Linuxサーバ運用
 - Nagios / Cactiによる監視運用
 - データセンター業務(電源、LAN結線)
