@@ -76,7 +76,7 @@ LPIC Level 1(2019年3月)
 ○ Linuxサーバ構築
   ・OS: RHEL 7 / CentOS 7
   ・サーバ: LDAP(OpenLDAP 2.4) / Maria DB 10.0 / Postfix / NTP(Chrony) / SNMP / NFS / rsyslog / Nagios / Cacti
-  ・クライアント: LDAP(nslcd+nscd / SSSD) / NTP(ntpd、Chrony) / SNMP / NFS / autofs / rsyslog
+  ・クライアント: LDAP(nslcd+nscd / SSSD) / NTP(ntpd / Chrony) / SNMP / NFS / autofs / rsyslog
 ○ IAサーバ(VMホスト)構築
   ・BIOS / iDRAC アップデート、設定
   ・各種 FW アップデート
